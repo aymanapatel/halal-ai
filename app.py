@@ -57,7 +57,7 @@ def save_uploaded_file(uploaded_file):
         return f.name
 
 def main():
-    st.title("🔍 Product Ingredient Analyzer")
+    st.title("🔍 Halal 4 U")
     
     if 'selected_example' not in st.session_state:
         st.session_state.selected_example = None
